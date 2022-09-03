@@ -5,13 +5,21 @@
         "php": ">=7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^1.13",
+        "doctrine/doctrine-bundle": "^2.7",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "2.11.*",
+        "easycorp/easyadmin-bundle": "*",
         "symfony/console": "4.4.*",
         "symfony/dotenv": "4.4.*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "4.4.*",
-        "symfony/yaml": "4.4.*"
-    },
-    "require-dev": {
+        "symfony/maker-bundle": "*",
+        "symfony/proxy-manager-bridge": "4.4.*",
+        "symfony/twig-bundle": "4.4.*",
+        "symfony/yaml": "4.4.*",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     },
     "config": {
         "allow-plugins": {
@@ -21,7 +29,9 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "symfony/symfony": "*",
+        "doctrine/orm": "2.12.0"
     },
     "autoload": {
         "psr-4": {
